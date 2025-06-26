@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.main-container {
+  @apply min-h-screen flex items-center justify-center bg-blue-50
+}
+
+.todo-box {
+  @apply bg-white p-6 rounded shadow-md w-full max-w-md
+}
+
+.form-box {
+  @apply bg-white p-8 rounded shadow-md w-full max-w-sm
+}
+
+.form-input {
+  @apply w-full mb-4 p-2 border border-blue-300 rounded
+}
+
+.form-title {
+  @apply text-2xl font-bold text-blue-600 mb-6 text-center
+}
+
+.form-button {
+  @apply w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700
+}
+
+.icon-style {
+  @apply w-5 h-5 cursor-pointer
+}
